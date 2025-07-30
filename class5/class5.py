@@ -53,20 +53,54 @@ sum = 0
         
 
 
-number1 = int(input("Entar Number: "))
+# number1 = int(input("Entar Number: "))
 
 
-if number1 % 2 == 0:
-    print("Even", number1)
+# if number1 % 2 == 0:
+#     print("Even", number1)
 
-else:
-    print("Odd", number1)
+# else:
+#     print("Odd", number1)
     
     
     
 
-for i in range(1, 50):
-    if i % 3 ==0:
-        print(i)
+# for i in range(1, 50):
+#     if i % 3 ==0:
+#         print(i)
     
+
+
+decimal_number = int(input("Enter a number: "))
+
+number_binary = bin(decimal_number)
+number_oct = oct(decimal_number)
+
+print(number_oct)
+
+print(number_binary)
         
+        
+        
+    
+user_info = input("Enter Your Name: ")
+
+if user_info.startswith("Md"):
+    print("This name starts whith 'MD'")
+else:
+    print("This Name doesn,t start with 'Md'")
+    
+    
+    
+    
+    
+
+
+
+
+
+def identify_number(user_number):
+    if user_number.stratswith("0b"):
+        return "Binary"
+    elif user_number.startswith("0o"):
+        return
