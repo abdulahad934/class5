@@ -35,3 +35,12 @@ number = [1, 2, 3, 4, 5, 6, 6, 7]
 
 result = Even_Odd_Cheker(number)
 print(number)
+
+
+list = [1, 2, 3, 4, 5, 6]
+ 
+even_all = [even for even in list if even % 2 ==0 ]
+
+
+
+print(even_all)
